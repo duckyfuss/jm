@@ -1,0 +1,96 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juggernaut Method (8s)</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="fluid.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+</style>
+
+<script src="respond.min.js"></script>
+</head>
+<body>
+
+<div class="gridContainer clearfix">
+
+<div id="LayoutDiv1">
+<p align="center">
+Juggernaut Method (8s)<br><br>
+<a href="../10s/">
+<button type="button">10s</button>
+</a>
+&nbsp;
+<a href="../8s/">
+<button type="button">8s</button>
+</a>
+&nbsp;
+<a href="../5s/">
+<button type="button">5s</button>
+</a>
+&nbsp;
+<a href="../3s/">
+<button type="button">3s</button>
+</a><br><br>
+Squat 1RM: <span id="displaysquat1rm"></span>lb<br>
+Press 1RM: <span id="displaypress1rm"></span>lb<br>
+Deadlift 1RM: <span id="displaydeadlift1rm"></span>lb<br>
+Bench 1RM: <span id="displaybench1rm"></span>lb<br><br>
+
+Squat T-max: <span id="displaysquattm"></span>lb<br>
+Press T-max: <span id="displaypresstm"></span>lb<br>
+Deadlift T-max: <span id="displaydeadlifttm"></span>lb<br>
+Bench T-max: <span id="displaybenchtm"></span>lb
+
+<form>	
+Enter 1RM Here:<br>
+  <input type="text" name="input1rm" id="input1rm" placeholder="Training Max">
+  <br>
+  <button type="button" onclick="calall()">OK</button> 
+</form>
+</p>
+<p align="center">1RM: <span id="display1rm">0</span>lb<br></p>
+
+<p align="center">Month 2 (8s) Week 1:<br>
+4 X 8 @ 65% = <span id="display6501rm1">0</span>lb<br>
+1 X 8+ @ 65% = <span id="display6501rm11">0</span>lb</p>
+
+<p align="center">Month 2 (8s) Week 2:<br>
+1 X 3 @ 60% = <span id="display6001rm2">0</span>lb<br>
+1 X 3 @ 67.5% = <span id="display6751rm2">0</span>lb<br>
+2 X 8 @ 72.5% = <span id="display7251rm2">0</span>lb<br>
+1 X 8+ @ 72.5% = <span id="display7251rm22">0</span>lb</p>
+
+<p align="center">Month 2 (8s) Week 3:<br>
+1 X 5 @ 50% = <span id="display5001rm3">0</span>lb<br>
+1 X 3 @ 60% = <span id="display6001rm3">0</span>lb<br>
+1 X 2 @ 70% = <span id="display7001rm3">0</span>lb<br>
+1 X 1 @ 75% = <span id="display7501rm3">0</span>lb<br>
+1 X 8+ @ 80% = <span id="display8001rm3">0</span>lb</p>
+
+<p align="center">Month 2 (8s) Week 4:<br>
+1 X 5 @ 40% = <span id="display4001rmd">0</span>lb<br>
+1 X 5 @ 50% = <span id="display5001rmd">0</span>lb<br>
+1 X 5 @ 60% = <span id="display6001rmd">0</span>lb<br>
+
+
+<p align="center"><br><br></p>
+</div>  
+</div>
+<script src="javafunctions.js"></script>
+<script src="../1rm/javafunctions.js"></script>
+</body>
+
+</html>
+
