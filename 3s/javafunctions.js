@@ -18,7 +18,8 @@ function calall() {
 	display7501rm3.innerHTML = Math.round(value1rm*0.75);
 	display8001rm3.innerHTML = Math.round(value1rm*0.80);
 	display8501rm3.innerHTML = Math.round(value1rm*0.85);
-	display9001rm3.innerHTML = Math.round(value1rm*0.90);
+        display9001rm3.innerHTML = Math.round(value1rm*0.90);
+	display9401rm3.innerHTML = Math.round(value1rm*0.94);
 	
 	display4001rmd.innerHTML = Math.round(value1rm*0.4);
 	display5001rmd.innerHTML = Math.round(value1rm*0.5);
